@@ -59,7 +59,18 @@ function CreateGroup() {
 
               {/* Group Leader */}
               <div className="mb-4">
-                <label htmlFor="groupLeader" className="block font-semibold">Group Leader</label>
+                <label htmlFor="groupLeader" className="block font-semibold">Group Description</label>
+                <input
+                  type="text"
+                  id="groupLeader"
+                  name="groupLeader"
+                  className="w-full p-2 border rounded"
+                  value={groupData.groupLeader}
+                  onChange={(e) => setGroupData({ ...groupData, groupLeader: e.target.value })}
+                />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="groupLeader" className="block font-semibold">Group Terms and conditions</label>
                 <input
                   type="text"
                   id="groupLeader"

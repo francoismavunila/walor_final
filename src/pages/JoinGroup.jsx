@@ -59,7 +59,7 @@ function JoinGroup() {
                 />
               </div>
 
-              <button type="submit" className="bg-[#1dc071] text-white p-2 rounded hover-bg-blue-700">Join Group</button>
+              <button type="submit" className="bg-[#1dc071] text-white p-2 rounded hover-bg-blue-700">Add member</button>
             </form>
           </div>
         </div>

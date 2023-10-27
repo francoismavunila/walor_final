@@ -28,7 +28,7 @@ function DisplayGroup({ group }) {
           onClick={() => navigate("/join-group")} // Use navigate to go to the "Join Group" page
           className="bg-[#1dc071] text-white p-2 rounded m-2"
         >
-          Join Group
+         Add member
         </button>
       </div>
     </div>
