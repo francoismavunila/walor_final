@@ -7,6 +7,7 @@ function DisburseFunds() {
   const [disbursementAmount, setDisbursementAmount] = useState(0);
 
   const handleDisburseFunds = () => {
+    alert("A request has been sent to ABSA bank for funds transfer")
     if (memberName && accountNumber && disbursementAmount > 0) {
       // Implement the logic to disburse funds to the specified member
       // You can use web3.js or your preferred method to interact with the blockchain
